@@ -5,7 +5,7 @@ class Header extends React.Component {
   render() {
     return (
       <div className = 'navbar'>
-        <h1>Main.js Header</h1>
+        <h1>Basic Current Weather App</h1>
         <div className = 'form-location'>
           <MainDisplay direction = 'row' />
         </div>
