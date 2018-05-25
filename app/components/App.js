@@ -14,7 +14,7 @@ class App extends React.Component {
             <div><Header /></div>
             <Route exact path='/' render={function(props) {
               return (
-                <div className = 'main-container' style = {{backgroundImage: "url('../app/images/pattern.svg')"}}>
+                <div className = 'main-container' style = {{backgroundImage: "url('pattern.svg')"}}>
                   <h1 className = 'header'>Enter a City and State</h1>
                   <MainDisplay direction = 'column' />
                 </div>

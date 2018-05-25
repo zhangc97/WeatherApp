@@ -48,11 +48,11 @@ class Forecast extends React.Component {
       return (Math.round(kelvin-273.15))
     }
     return (this.state.loading === true
-      ? <div className = 'main-container' style = {{backgroundImage: "url('../app/images/pattern.svg')"}}>
+      ? <div className = 'main-container' style = {{backgroundImage: "url('../pattern.svg')"}}>
         <Loading />
         </div>
-      : <div className = 'main-container' style = {{backgroundImage: "url('../app/images/pattern.svg')"}}>
-        <img className='weather' src={'/app/images/weather-icons/' + this.state.information.weather[0].icon + '.svg'} alt='Weather' />
+      : <div className = 'main-container' style = {{backgroundImage: "url('../pattern.svg')"}}>
+        <img className='weather' src={'../' + this.state.information.weather[0].icon + '.svg'} alt='Weather' />
         <p>Current Temperature: {convertToCelsius(this.state.information.main.temp)}°C</p>
         <p>High Temperature of: {convertToCelsius(this.state.information.main.temp_max)}°C</p>
         <p>Low Temperature of: {convertToCelsius(this.state.information.main.temp_min)}°C</p>
