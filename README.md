@@ -1,1 +1,1 @@
-https://basic-weather-app-6756e.firebaseapp.com/
+Hosted at: https://basic-weather-app-6756e.firebaseapp.com/
